@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  text-align: center;
+}
+.block {
+  margin-top: 20px;
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+
+  box-shadow: rgba(0, 0, 0, 0.5) 16px 16px 16px;
+  transition: 0.3s ease-in;
+}
+
+.block:hover {
+  box-shadow: rgba(0, 0, 0, 0.5) 12px 12px 12px;
+}
+.text {
+}
+.btn {
+  margin-top: 20px;
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
